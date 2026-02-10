@@ -41,7 +41,7 @@ int[] numbers = {10, 20, 30, 40, 50};
 ### 2.2 Array mit Texten
 
 ```java
-String[] namen = {"Anna", "Ben", "Clara", "David"};
+String[] namen = {"Jay", "Zane", "Cole", "Kai"};
 ```
 
 ### 2.3 Array mit Wahrheitswerten
