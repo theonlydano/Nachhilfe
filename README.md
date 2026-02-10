@@ -1,2 +1,2 @@
-\# Repo für Übungsbeispiele und Aufgaben
+# Repo für Übungsbeispiele und Aufgaben
 
