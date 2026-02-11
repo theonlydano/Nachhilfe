@@ -1,3 +1,5 @@
+package abstractclass;
+
 public abstract class SimpleList {
     public abstract int size();
     public abstract boolean isEmpty();

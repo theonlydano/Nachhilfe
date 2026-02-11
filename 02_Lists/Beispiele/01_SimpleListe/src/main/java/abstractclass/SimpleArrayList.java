@@ -1,4 +1,6 @@
-public class SimpleArrayList{
+package abstractclass;
+
+public class SimpleArrayList extends SimpleList {
 
     private String[] elements;
 
@@ -6,10 +8,12 @@ public class SimpleArrayList{
         elements = new String[0];
     }
 
+    @Override
     public int size() {
         return elements.length;
     }
 
+    @Override
     public boolean isEmpty() {
         if(elements.length == 0){
             return true;
@@ -17,6 +21,7 @@ public class SimpleArrayList{
         return false;
     }
 
+    @Override
     public boolean contains(String s) {
         for(int i = 0; i < elements.length; i++){
             if(elements[i].equals(s)){
@@ -26,14 +31,17 @@ public class SimpleArrayList{
         return false;
     }
 
+    @Override
     public String get(int i) {
         return elements[i];
     }
 
+    @Override
     public void set(int i, String s) {
         elements[i] = s;
     }
 
+    @Override
     public void remove(int i) {
         String[] old = elements;
         elements = new String[old.length - 1];
@@ -46,6 +54,7 @@ public class SimpleArrayList{
         }
     }
 
+    @Override
     public void add(String s) {
         String[] old = elements;
         elements = new String[old.length + 1];
@@ -57,6 +66,7 @@ public class SimpleArrayList{
         elements[old.length] = s;
     }
 
+    @Override
     public void clear() {
         elements = new String[0];
     }

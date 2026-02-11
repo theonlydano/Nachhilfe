@@ -1,9 +1,8 @@
-import abstractclass.SimpleArrayList;
-import abstractclass.SimpleList;
+package abstractclass;
 
 public class Main {
     public static void main(String[] args) {
-        SimpleArrayList liste = new SimpleArrayList();
+        SimpleList liste = new SimpleArrayList();
 
         liste.add("A");
         liste.add("B");
