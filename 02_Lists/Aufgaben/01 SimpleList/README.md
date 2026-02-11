@@ -1,4 +1,5 @@
 # SimpleList
+ *Bei Fragen mir eine Nachricht senden!*
 
 ## Was du lernen wirst:
 - Wie eine Liste aufgebaut ist
